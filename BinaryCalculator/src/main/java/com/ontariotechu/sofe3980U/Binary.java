@@ -153,7 +153,7 @@ public class Binary
 		int ind2 = num2.number.length()-1;
 		int counter = 0;
 
-		Binary num3 = new Binary("0".repeat(ind1 + ind2));  // the binary value of the result, initialized with largest 0s
+		Binary num3 = new Binary("0");  // the binary value of the result
 		String sum = ""; // current sum
 		for(int i = ind2; i >= 0; i--) { // outer loop: controls num2
 			for(int j = ind1; j >= 0; j--) { // inner loop: controls num1
